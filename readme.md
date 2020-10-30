@@ -1,24 +1,24 @@
-# Hópverkefni 1
+# Hópverkefni 1 - Lausn
 
-Verkefnið felst í því að smíða vef eftir forskrift.
 
-Gefin er [hönnun í Figma](https://www.figma.com/file/Ld0BojedvArxiADpq80wVD/Vefforritun-1-2020-h%C3%B3pverkefni-1). Hægt er að kveikja á grind með View > Layout grids, en þá virkjast það fyrir _neðri_ part hönnunarskjals.
+## Hvernig skal keyra verkefnið
 
-Allt efni, litir, stærði o.s.fr skal taka úr Figma skjali.
+Til þess að keyra verkefnið í fyrsta sinn þarf að sækja node.js og keyra skipunina npm install inn í aðalmöppu.
+Við það eru allir nauðsynlegir pakkar settir upp.
 
-Ekki þarf að útfæra neina virkni fyrir takka eða form.
+Til þess að keyra verkefnið má svo nota eftirfarandi skipanir:
+* Til þess að skoða síður á eigin netþjóni: npm run browser-sync
+* Til þess að skoða síður á eigin netþjóni og þýða jafnóðum allar breytingar á þeim með sass: npm run dev
+* Til þess að fara yfir allar skrár og athuga hvort málfræðin í þeim sé í samræmi við staðla verkefnsins: npm run lint
 
-Hönnunin **er ekki fullkomin** og er ósamræmi í bilum, stærðum o.þ.h. Leyfilegt er að normalísera en hægt er að spyrja spurninga um hönnun á rásinni #2020-v1-hopverk1.
+## Uppsetning verkefnis
 
-[Hér má sjá yfirferð yfir Figma og hvernig er hægt að byrja verkefnið](https://www.youtube.com/watch?v=1CMZEbhzYPM).
+## Hópur
 
-## Hópavinna
+Jón Guðjónsson (einn í hóp) 
+HÍ-notendanafn: jog35
+Github-notendanafn: JonGudjonsson
 
-Verkefnið skal unnið í hóp með 3-4 einstaklingum. Hafið samband við kennara ef ekki er mögulegt að vinna í hóp. Hægt er að leita að félögum á slack á rásinni #2020-v1-vantar-hop
-
-Notast skal við Git og GitHub. Engar zip skrár með kóða ættu að ganga á milli í hópavinnu, heldur á að „committa“ allan kóða og vinna gegnum Git.
-
-## Lýsing á verkefni
 
 `README.md` skrá skal vera í rót verkefnis og innihalda:
 

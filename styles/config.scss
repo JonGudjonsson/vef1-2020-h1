@@ -7,21 +7,18 @@ html {
   font-size: 20px;
 }
 
-
-/* Skilgreina max breidd efnis á síðu*/
+/* Skilgreina max breidd efnis á síðu */
 $max-width: 1290px;
 
 /* Skilgreinir liti */
-$skull-white: #FFFFFF;
-$ghost-white: #FAFAFA;
-$shining-gold: #E3CDB1;
-$codex-grey: #9B9B9B;
-$chaos-black: #000000;
-$adeptus_battlegrey: #5E5B69;
-$astronomican-grey: #D0D0D0;
-$bleached-bone: #F7F1EB;
+$skull-white: #fff;
+$ghost-white: #fafafa;
+$shining-gold: #e3cdb1;
+$codex-grey: #9b9b9b;
+$chaos-black: #000;
+$adeptus-battlegrey: #5e5b69;
+$astronomican-grey: #d0d0d0;
+$bleached-bone: #f7f1eb;
 
 /* Skilgreinir kvikun á tökkum */
 $transition: 300ms ease-in-out;
-
-

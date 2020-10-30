@@ -1,9 +1,9 @@
 
-.HeaderMenuBackground {
+.header-menu-background {
   background-color: $ghost-white;
 }
 
-.Menu {
+.menu {
   grid-column-start: span 12;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -12,7 +12,7 @@
 }
 
 
-.Menu a {
+.menu a {
   color: $codex-grey;
   font-size: 0.8rem;
 }
@@ -23,7 +23,7 @@ header li {
 }
 
 
-.HomeHeader {
+.home-header {
   background: $ghost-white url(img/HeaderBackground.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -31,7 +31,7 @@ header li {
   width: 100%;
 }
 
-.RecipeHeader {
+.recipe-header {
   background: $ghost-white url(img/HeaderBackground.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -39,7 +39,7 @@ header li {
   width: 100%;
 }
 
-.VideoRecipeHeader {
+.video-recipe-header {
   background-image: url('img/VideoBackground.png');
   background-repeat: no-repeat;
   background-size: 70%;
@@ -47,25 +47,25 @@ header li {
   width: 100%;
 }
 
-.VideoRecipeOverlay {
+.video-recipe-overlay {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%);
 }
 
-.Hero {
+.hero {
   justify-content: space-between;
   align-content: center;
   height: 100vh;
 }
 
-.VideoHero {
+.video-hero {
   justify-content: space-between;
   align-content: center;
   height: 70vh;
 }
 
-.HeroText {
+.hero-text {
   grid-column-start: span 5;
   display: flex;
   flex-direction: column;
@@ -73,66 +73,66 @@ header li {
   flex-wrap: wrap;
 }
 
-.HeroText h3 {
+.hero-text h3 {
   font-size: 0.8rem;
   font-weight: 500;
 }
 
-.HeroText h1 {
+.hero-text h1 {
   font-size: 3rem;
   padding-bottom: 1rem;
 }
 
-.HeroText p {
+.hero-text p {
   font-size: 0.9rem;
   padding-bottom: 1.5rem;
 }
 
-.ReferenceBar {
+.reference-bar {
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
-.ReferenceTextIcon {
+.reference-text-icon {
   display: flex;
   align-items: center;
   justify-items: center;
 }
 
-.ReferenceTextIcon .image{
+.reference-text-icon .image{
   padding-right: 0.7rem;
   align-self: center;
   box-sizing: border-box;
   padding-bottom: 0.3rem;
 }
 
-.ReferenceTextIcon p{
+.reference-text-icon p{
   font-size: 0.9rem;
   padding-bottom: 0.8rem;
   align-self: center;
 }
 
-.ReferenceTextIcon p:first-of-type{
+.reference-text-icon p:first-of-type{
   font-weight: bold;
   padding-right: 0.3rem;
 }
 
-.VideoRecipeHeader > .VideoRecipeOverlay > .VideoHero > .HeroText {
+.video-recipe-header > .video-recipe-overlay > .video-hero > .hero-text {
   color: $skull-white;
 }
 
-.GreyHeroText {
+.grey-hero-text {
   color: $codex-grey;
 }
 
-.PlayIcon {
+.play-icon {
   grid-column: 9 / span 2;
   justify-items: center;
   align-items: center;
 }
 
-.PlayIcon .image {
+.play-icon .image {
   box-sizing: border-box;
   padding-top: 30%;
 }

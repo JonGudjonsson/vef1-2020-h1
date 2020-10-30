@@ -1,46 +1,45 @@
 
-
-.NewsletterBackground {
+.newsletter-background {
   background-color: $chaos-black;
 }
 
-.Newsletter {
+.newsletter {
   height: 17rem;
   grid-template-row: 1fr;
   align-items: center;
 }
 
-.NewsletterText {
+.newsletter-text {
   grid-column: 1 / span 6 ;
   display: flex;
   flex-direction: column;
 }
 
-.NewsletterText h2{
+.newsletter-text h2{
   font-size: 0.8rem;
   font-weight: 500;
 }
 
-.NewsletterText h1{
+.newsletter-text h1{
   color: $skull-white;
   font-size: 2rem;
 }
 
 
-.Newsletter form {
+.newsletter form {
   grid-column: 7 / span 3;
   display: flex;
   flex-direction: column;
 }
 
-.Newsletter form label {
+.newsletter form label {
   font-size: 0.7rem;
   padding-bottom: 0.4rem;
   color: $skull-white;
   font-family: 'Poppins', helvetica, arial, sans-serif;
 }
 
-.Newsletter form input[type=text] {
+.newsletter form input[type=text] {
   padding: 0rem;
   color: $skull-white;
   font-size: 1.1rem;
@@ -50,18 +49,18 @@
   border-bottom: 2px solid $shining-gold;
 }
 
-.Newsletter button {
+.newsletter button {
   grid-column-end: 12;
   background-color: $chaos-black;
 }
 
-.Footer {
+.footer {
   heigth: 17rem;
   background-color: $skull-white;
   grid-template-row: 1fr 1fr 1fr;
 }
 
-.ComeForMore {
+.come-for-more {
   grid-column: span 12;
   padding-top: 8rem;
   padding-bottom: 1.5rem;
@@ -70,7 +69,7 @@
   justify-content: center;
 }
 
-.LogoBar {
+.logo-bar {
   grid-column: span 12;
   padding-bottom: 1.5 rem;
   display: flex;
@@ -78,7 +77,7 @@
   justify-content: center;
 }
 
-.LogoBar .image {
+.logo-bar .image {
   padding-left: 1rem;
   padding-right: 1rem;
 }
