@@ -1,4 +1,8 @@
 
+main {
+  padding-top: 6rem;
+}
+
 .LatestRecipeSectionBackground {
   background: linear-gradient($skull-white 33%, $ghost-white 0%);
 }
@@ -6,6 +10,17 @@
 .LatestRecipeSection {
   grid-template-row: 1fr 1fr 1fr;
 }
+
+.AllRecipeSectionBackground {
+  background: linear-gradient($skull-white 7%, $ghost-white 0%);
+}
+
+
+.AllRecipeSection {
+  grid-template-row: 1fr 1fr 1fr;
+}
+
+
 
 .LatestRecipeHeading {
   font-size: 0.8rem;
@@ -27,6 +42,37 @@
   padding-right: 1rem;
 }
 
+.AllRecipeHeading {
+  font-size: 0.8rem;
+  grid-column-start: span 12;
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.AllRecipeTextCheckbox{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.AllRecipeTextCheckbox h1 {
+  font-size: 2rem;
+}
+
+.AllRecipeTextCheckbox form {
+  font-size: 1.1rem;
+}
+
+.AllRecipeTextCheckbox form input[type=checkbox]  {
+  font-weight:bold;
+  transform: scale(1.2);
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+
 .RecipesList {
   grid-column: span 12;
   grid-row-start: 2;
@@ -41,7 +87,6 @@
 }
 
 .CardHover .image{
-  height: 14.5rem;
   overflow: hidden;
 }
 
@@ -50,7 +95,9 @@
    honnudur vaentanlega trygga allar
    i sama aspect ratio eda somu staerd */
 .CardHover .image img{
-  object-fit: cover;
+  height: 14.5rem;
+  width: 100%;
+  object-fit: contain;
 }
 
 .CardHover .CardHoverText{
@@ -60,6 +107,7 @@
   padding-top: 1.25rem;
   padding-bottom: 1.125;
   align-items: end;
+  padding: 1rem;
 }
 
 .CardHover .CardHoverText > H4 {
@@ -173,7 +221,6 @@
 }
 
 .VideoCardHover .image{
-  height: 11.5rem;
   overflow: hidden;
 }
 
@@ -182,6 +229,8 @@
    honnudur vaentanlega trygga allar
    i sama aspect ratio eda somu staerd */
 .VideoCardHover .image img{
+  height: 11.5rem;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -192,6 +241,7 @@
   padding-top: 1.25rem;
   padding-bottom: 1.125;
   align-items: end;
+  padding: 1rem;
 }
 
 .VideoCardHover .VideoCardHoverText > H4 {

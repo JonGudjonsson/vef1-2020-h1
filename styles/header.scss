@@ -1,28 +1,17 @@
-header {
-  background: $ghost-white url(img/HeaderBackground.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 40%, 100%;
-  height: 40rem;
-  width: 100%;
+
+.HeaderMenuBackground {
+  background-color: $ghost-white;
 }
 
-
-.Hero {
-  grid-column-start: span 12;
-  height: 40rem;
-  grid-template-row: 1fr 1fr 1fr;
-  justify-content: space-between;
-}
-
-.HeroMenu {
+.Menu {
   grid-column-start: span 12;
   padding-top: 3rem;
   display: flex;
   justify-content: space-between;
 }
 
-.HeroMenu a {
+
+.Menu a {
   color: $codex-grey;
   font-size: 0.8rem;
 }
@@ -30,6 +19,23 @@ header {
 header li {
   display: inline;
   padding: 0.8rem;
+}
+
+
+.HomeHeader {
+  background: $ghost-white url(img/HeaderBackground.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 40%, 100%;
+  width: 100%;
+}
+
+.Hero {
+  heigth: 100%;
+  grid-column-start: span 12;
+  grid-template-row: 1fr 1fr 1fr;
+  justify-content: space-between;
+  height: 40rem;
 }
 
 .HeroText {
@@ -51,4 +57,8 @@ header li {
 
 .HeroText p {
   font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
+
+
