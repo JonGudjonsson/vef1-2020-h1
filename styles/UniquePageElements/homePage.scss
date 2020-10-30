@@ -1,0 +1,65 @@
+
+/* Stylesheet for unique homepage elements */
+
+
+/* Homepage header */
+.latest-recipe-heading {
+  font-size: 0.8rem;
+  grid-column-start: span 12;
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.latest-recipe-heading h2{
+  font-weight: 500;
+}
+
+/* Styles for book add */
+
+.content-section {
+  background: $bleached-bone;
+  height: 33.5rem;
+  width: 100%;
+  padding-top: 7rem;
+}
+
+.content-text {
+  grid-column-start: 2;
+  grid-column-end: span 6;
+  grid-row-start: 1;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.content-text h2{
+  font-size: 0.8rem;
+}
+
+.content-text h1{
+  font-size: 3rem;
+}
+
+.content-text p{
+  font-size: 0.9rem;
+  color: $adeptus-battlegrey;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.content-section .image {
+  grid-column-end: 11;
+  width: 22rem;
+  overflow: visible;
+  box-shadow: -1rem 1rem 1rem -0.75rem $chaos-black;
+}
+
+
+.content-section .image img{
+  object-fit: contain;
+}

@@ -1,16 +1,19 @@
 
-/* Skilgreina og sækja skriftir */
+
+
+/* Imports fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap');
 
+/* Redefines font-size form 16px to 20px */
 html {
   font-size: 20px;
 }
 
-/* Skilgreina max breidd efnis á síðu */
+/* Defines max-width of page content and grid */
 $max-width: 1290px;
 
-/* Skilgreinir liti */
+/* Colors defined */
 $skull-white: #fff;
 $ghost-white: #fafafa;
 $shining-gold: #e3cdb1;
@@ -20,5 +23,5 @@ $adeptus-battlegrey: #5e5b69;
 $astronomican-grey: #d0d0d0;
 $bleached-bone: #f7f1eb;
 
-/* Skilgreinir kvikun á tökkum */
+/* Global transition effects on buttons */
 $transition: 300ms ease-in-out;

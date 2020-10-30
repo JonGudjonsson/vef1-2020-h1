@@ -1,0 +1,36 @@
+
+/* Stylesheet for unique LatestRecipes page elements */
+
+.all-recipe-heading {
+  font-size: 0.8rem;
+  grid-column-start: span 12;
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.all-recipe-heading h2{
+  font-weight: 500;
+}
+
+.all-recipe-text-checkbox{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.all-recipe-text-checkbox h1 {
+  font-size: 2rem;
+}
+
+.all-recipe-text-checkbox form {
+  font-size: 1.1rem;
+}
+
+.all-recipe-text-checkbox form input[type=checkbox]  {
+  font-weight:bold;
+  transform: scale(1.2);
+  font-family: 'Playfair Display', Georgia, serif;
+}

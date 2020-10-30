@@ -1,3 +1,7 @@
+
+/* Defines global variables used by multiple
+   pages */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +11,10 @@
 body {
   color: $chaos-black;
   font-family: 'Poppins', helvetica, arial, sans-serif;
+}
+
+main {
+  padding-top: 6rem;
 }
 
 a {
@@ -55,4 +63,16 @@ table th{
 
 table td{
   font-family: 'Poppins', helvetica, arial, sans-serif;
+}
+
+/* Style of heading with first half black and
+   second half grey */
+.black-grey-text {
+  font-size: 2rem;
+  display:flex;
+}
+
+.black-grey-text .grey{
+  color: $codex-grey;
+  padding-right: 1rem;
 }

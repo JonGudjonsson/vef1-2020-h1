@@ -1,7 +1,5 @@
 
-main {
-  padding-top: 6rem;
-}
+/* Background when there are 6 elements in list */
 
 .latest-recipe-section-background {
   background: linear-gradient($skull-white 33%, $ghost-white 0%);
@@ -11,119 +9,13 @@ main {
   grid-template-row: 1fr 1fr 1fr;
 }
 
+/* Background when there are 21 elements in list */
+
 .all-recipe-section-background {
   background: linear-gradient($skull-white 7%, $ghost-white 0%);
 }
 
-.recipe {
-  padding-bottom: 6rem;
-}
-
-.recipe h1{
-  color: $astronomican-grey;
-  font-size: 2rem;
-  padding-bottom: 2rem;
-}
-
-.ingredients {
-  grid-column: 1 / span 2;
-}
-
-.ingredients table{
-  padding-bottom: 2rem;
-}
-
-
-.ingredients tr th{
-  font-size: 0.9rem;
-  color: $chaos-black;
-  text-align: left;
-  padding-bottom: 1rem;
-}
-
-.ingredients tr td:nth-child(2){
-  font-size: 0.9rem;
-  color: $codex-grey;
-}
-
-.ingredients tr td:nth-child(1){
-  font-size: 1.8rem;
-  color: $shining-gold;
-  text-align: center;
-  padding-right: 2.5rem;
-}
-
-.method {
-  grid-column: 5 / span 8;
-}
-
-.method p {
-  font-size: 0.9rem;
-  line-height: 1.7rem;
-  padding-bottom: 1rem;
-}
-
-.method-paragraph {
-  padding-bottom: 2rem;
-}
-
-.latest-recipe-heading {
-  font-size: 0.8rem;
-  grid-column-start: span 12;
-  grid-row-start: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  flex-wrap: wrap;
-}
-
-.latest-recipe-heading h2{
-  font-weight: 500;
-}
-
-.black-grey-text {
-  font-size: 2rem;
-  display:flex;
-}
-
-.black-grey-text .grey{
-  color: $codex-grey;
-  padding-right: 1rem;
-}
-
-.all-recipe-heading {
-  font-size: 0.8rem;
-  grid-column-start: span 12;
-  grid-row-start: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  flex-wrap: wrap;
-}
-
-.all-recipe-heading h2{
-  font-weight: 500;
-}
-
-.all-recipe-text-checkbox{
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.all-recipe-text-checkbox h1 {
-  font-size: 2rem;
-}
-
-.all-recipe-text-checkbox form {
-  font-size: 1.1rem;
-}
-
-.all-recipe-text-checkbox form input[type=checkbox]  {
-  font-weight:bold;
-  transform: scale(1.2);
-  font-family: 'Playfair Display', Georgia, serif;
-}
+/* Recipes hover card styles */
 
 .recipes-list {
   grid-column: span 12;
@@ -187,52 +79,10 @@ main {
   justify-content: center;
 }
 
-.content-section {
-  background: $bleached-bone;
-  height: 33.5rem;
-  width: 100%;
-  padding-top: 7rem;
-}
 
-.content-text {
-  grid-column-start: 2;
-  grid-column-end: span 6;
-  grid-row-start: 1;
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  flex-wrap: wrap;
-}
+/* Video recpies hover card styles */
 
-.content-text h2{
-  font-size: 0.8rem;
-}
-
-.content-text h1{
-  font-size: 3rem;
-}
-
-.content-text p{
-  font-size: 0.9rem;
-  color: $adeptus_battlegrey;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
-}
-
-.content-section .image {
-  grid-column-end: 11;
-  width: 22rem;
-  overflow: visible;
-  box-shadow: -1rem 1rem 1rem -0.75rem $chaos-black;
-}
-
-
-.content-section .image img{
-  object-fit: contain;
-}
-
-.video-recipe-section-background {
+ .video-recipe-section-background {
   background: linear-gradient($skull-white 66%, $ghost-white 0%);
 }
 
@@ -321,5 +171,3 @@ main {
   align-items: center;
   justify-content: center;
 }
-
-

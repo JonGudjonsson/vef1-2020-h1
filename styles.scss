@@ -1,8 +1,17 @@
 
+/* Imports from other files, use sass
+   to compile */
+
 @import 'styles/config';
 @import 'styles/grid';
 @import 'styles/global';
 @import 'styles/header';
-@import 'styles/main';
+@import 'styles/hovercards';
+@import 'styles/recipe';
+@import 'styles/UniquePageEleemnts/homePage';
+@import 'styles/UniquePageEleemnts/latestRecipesPage';
+@import 'styles/UniquePageEleemnts/recipePage';
+@import 'styles/UniquePageEleemnts/videoRecipePage';
 @import 'styles/footer';
+
 

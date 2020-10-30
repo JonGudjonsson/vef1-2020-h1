@@ -1,4 +1,10 @@
 
+/* General elements shared by multiple
+   page headers */
+
+
+/* Menu at top of every page */
+
 .header-menu-background {
   background-color: $ghost-white;
 }
@@ -11,7 +17,6 @@
   justify-content: space-between;
 }
 
-
 .menu a {
   color: $codex-grey;
   font-size: 0.8rem;
@@ -23,46 +28,12 @@ header li {
 }
 
 
-.home-header {
-  background: $ghost-white url(img/HeaderBackground.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 40%, 100%;
-  width: 100%;
-}
-
-.recipe-header {
-  background: $ghost-white url(img/HeaderBackground.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 40%, 100%;
-  width: 100%;
-}
-
-.video-recipe-header {
-  background-image: url('img/VideoBackground.png');
-  background-repeat: no-repeat;
-  background-size: 70%;
-  background-position: 100% 30%;
-  width: 100%;
-}
-
-.video-recipe-overlay {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to left, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 70%);
-}
+/* General hero element styles */
 
 .hero {
   justify-content: space-between;
   align-content: center;
   height: 100vh;
-}
-
-.video-hero {
-  justify-content: space-between;
-  align-content: center;
-  height: 70vh;
 }
 
 .hero-text {
@@ -124,15 +95,4 @@ header li {
 
 .grey-hero-text {
   color: $codex-grey;
-}
-
-.play-icon {
-  grid-column: 9 / span 2;
-  justify-items: center;
-  align-items: center;
-}
-
-.play-icon .image {
-  box-sizing: border-box;
-  padding-top: 30%;
 }
