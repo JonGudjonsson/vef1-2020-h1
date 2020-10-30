@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $chaos-black;
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+}
+
+a {
+  color: $shining-gold;
+  text-decoration: none;
+}
+
+button {
+  font-size: 0.8rem;
+  width: 12.5rem;
+  heigth: 2.6rem;
+  background-color: $ghost-white;
+  border: 1px solid $shining-gold;
+  border-radius: 5px;
+  color: $shining-gold;
+  padding: 0.5rem;
+  transition: color $transition, background-color $transition;
+  word-break: initial;
+}
+
+button:hover {
+  background-color: $shining-gold;
+  color: $ghost-white;
+}
+
+button:active {
+  background-color: $shining-gold;
+  border: 1px solid $ghost-white;
+  color: $ghost-white;
+}
+
+h1,
+h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+h2,
+h3 {
+  font-family: 'Poppins', helvetica, arial, sans-serif;
+  color: $shining-gold;
+}

@@ -1,0 +1,10 @@
+
+.grid {
+  max-width: $max-width;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  column-gap: 30px;
+  grid-row-gap: 30px;
+  overflow: hidden;
+}

@@ -1,0 +1,27 @@
+
+/* Skilgreina og sækja skriftir */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+html {
+  font-size: 20px;
+}
+
+
+/* Skilgreina max breidd efnis á síðu*/
+$max-width: 1290px;
+
+/* Skilgreinir liti */
+$skull-white: #FFFFFF;
+$ghost-white: #FAFAFA;
+$shining-gold: #E3CDB1;
+$codex-grey: #9B9B9B;
+$chaos-black: #000000;
+$adeptus_battlegrey: #5E5B69;
+$astronomican-grey: #D0D0D0;
+$bleached-bone: #F7F1EB;
+
+/* Skilgreinir kvikun á tökkum */
+$transition: 300ms ease-in-out;
+
+

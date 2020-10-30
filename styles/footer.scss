@@ -1,0 +1,91 @@
+
+
+.NewsletterBackground {
+  background-color: $chaos-black;
+}
+
+.Newsletter {
+  height: 17rem;
+  grid-template-row: 1fr;
+  align-items: center;
+}
+
+.NewsletterText {
+  grid-column: 1 / span 5 ;
+  display: flex;
+  flex-direction: column;
+}
+
+.NewsletterText h2{
+  font-size: 0.8rem;
+}
+
+.NewsletterText h1{
+  color: $skull-white;
+  font-size: 1.5rem;
+}
+
+
+.Newsletter form {
+  grid-column: 7 / span 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.Newsletter form label {
+  font-size: 0.7rem;
+  padding-bottom: 0.4rem;
+  color: $skull-white;
+}
+
+.Newsletter form input[type=text] {
+  padding: 0rem;
+  color: $skull-white;
+  font-size: 1.1rem;
+  overflow: visible;
+  background-color: $chaos-black;
+  border: none;
+  border-bottom: 2px solid $shining-gold;
+}
+
+.Newsletter button {
+  grid-column-end: 12;
+  background-color: $chaos-black;
+}
+
+.Footer {
+  heigth: 17rem;
+  background-color: $skull-white;
+  grid-template-row: 1fr 1fr 1fr;
+}
+
+.ComeForMore {
+  grid-column: span 12;
+  padding-top: 8rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LogoBar {
+  grid-column: span 12;
+  padding-bottom: 1.5 rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LogoBar .image {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.yumyum {
+  grid-column: span 12;
+  padding-bottom: 1.5rem;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
