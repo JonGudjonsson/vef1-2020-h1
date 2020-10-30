@@ -22,7 +22,7 @@ button {
   border: 1px solid $shining-gold;
   border-radius: 5px;
   color: $shining-gold;
-  padding: 0.5rem;
+  padding: 0.8rem;
   transition: color $transition, background-color $transition;
   word-break: initial;
 }
@@ -47,4 +47,12 @@ h2,
 h3 {
   font-family: 'Poppins', helvetica, arial, sans-serif;
   color: $shining-gold;
+}
+
+table th{
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+table td{
+  font-family: 'Poppins', helvetica, arial, sans-serif;
 }
