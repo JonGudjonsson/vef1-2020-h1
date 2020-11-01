@@ -1,6 +1,5 @@
 
-/* Imports from other files, use sass
-   to compile */
+/* Imports from other files */
 
 @import 'styles/config';
 @import 'styles/grid';
@@ -8,10 +7,10 @@
 @import 'styles/header';
 @import 'styles/hovercards';
 @import 'styles/recipe';
-@import 'styles/UniquePageEleemnts/homePage';
-@import 'styles/UniquePageEleemnts/latestRecipesPage';
-@import 'styles/UniquePageEleemnts/recipePage';
-@import 'styles/UniquePageEleemnts/videoRecipePage';
+@import 'styles/pages/homePage';
+@import 'styles/pages/latestRecipesPage';
+@import 'styles/pages/recipePage';
+@import 'styles/pages/videoRecipePage';
 @import 'styles/footer';
 
 

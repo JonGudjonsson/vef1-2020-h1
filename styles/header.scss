@@ -2,7 +2,6 @@
 /* General elements shared by multiple
    page headers */
 
-
 /* Menu at top of every page */
 
 .header-menu-background {
@@ -10,11 +9,11 @@
 }
 
 .menu {
-  grid-column-start: span 12;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
   display: flex;
+  grid-column-start: span 12;
   justify-content: space-between;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .menu a {
@@ -27,21 +26,20 @@ header li {
   padding: 0.8rem;
 }
 
-
 /* General hero element styles */
 
 .hero {
-  justify-content: space-between;
   align-content: center;
   height: 100vh;
+  justify-content: space-between;
 }
 
 .hero-text {
-  grid-column-start: span 5;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  grid-column-start: span 5;
+  justify-content: flex-start;
 }
 
 .hero-text h3 {
@@ -60,36 +58,36 @@ header li {
 }
 
 .reference-bar {
-  width: 80%;
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 .reference-text-icon {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-items: center;
 }
 
-.reference-text-icon .image{
-  padding-right: 0.7rem;
+.reference-text-icon .image {
   align-self: center;
   box-sizing: border-box;
   padding-bottom: 0.3rem;
+  padding-right: 0.7rem;
 }
 
-.reference-text-icon p{
+.reference-text-icon p {
+  align-self: center;
   font-size: 0.9rem;
   padding-bottom: 0.8rem;
-  align-self: center;
 }
 
-.reference-text-icon p:first-of-type{
+.reference-text-icon p:first-of-type {
   font-weight: bold;
   padding-right: 0.3rem;
 }
 
-.video-recipe-header > .video-recipe-overlay > .video-hero > .hero-text {
+.video-recipe-overlay > .video-hero > .hero-text {
   color: $skull-white;
 }
 

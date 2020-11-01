@@ -1,83 +1,82 @@
 
 /* Footer at bottom of every page */
 
-
 .newsletter-background {
   background-color: $chaos-black;
 }
 
 .newsletter {
-  height: 17rem;
-  grid-template-row: 1fr;
   align-items: center;
+  height: 17rem;
 }
 
 .newsletter-text {
-  grid-column: 1 / span 6 ;
   display: flex;
   flex-direction: column;
+  grid-column: 1 / span 6;
 }
 
-.newsletter-text h2{
+.newsletter-text h2 {
   font-size: 0.8rem;
   font-weight: 500;
 }
 
-.newsletter-text h1{
+.newsletter-text h1 {
   color: $skull-white;
   font-size: 2rem;
 }
 
-
 .newsletter form {
-  grid-column: 7 / span 3;
   display: flex;
   flex-direction: column;
+  grid-column: 7 / span 3;
 }
 
 .newsletter form label {
-  font-size: 0.7rem;
-  padding-bottom: 0.4rem;
   color: $skull-white;
   font-family: 'Poppins', helvetica, arial, sans-serif;
+  font-size: 0.7rem;
+  padding-bottom: 0.4rem;
 }
 
-.newsletter form input[type=text] {
-  padding: 0rem;
-  color: $skull-white;
-  font-size: 1.1rem;
-  font-family: 'Playfair Display', Georgia, serif;
+.newsletter form input {
   background-color: $chaos-black;
+
+  /* Lint complains about none but this is legitimate,
+     without the border:none command there will be an
+     ugly extra border around the textbox */
   border: none;
   border-bottom: 2px solid $shining-gold;
+  color: $skull-white;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.1rem;
 }
 
 .newsletter button {
-  grid-column-end: 12;
   background-color: $chaos-black;
+  grid-column-end: 12;
 }
 
 .footer {
-  heigth: 17rem;
   background-color: $skull-white;
-  grid-template-row: 1fr 1fr 1fr;
+  height: 17rem;
 }
 
 .come-for-more {
-  grid-column: span 12;
-  padding-top: 8rem;
-  padding-bottom: 1.5rem;
-  display: flex;
   align-items: center;
+  display: flex;
+  grid-column: span 12;
   justify-content: center;
+  padding-bottom: 1.5rem;
+  padding-top: 8rem;
 }
 
 .logo-bar {
-  grid-column: span 12;
-  padding-bottom: 1.5 rem;
-  display: flex;
   align-items: center;
+  display: flex;
+  grid-column: span 12;
   justify-content: center;
+  padding-bottom: 1.5 rem;
 }
 
 .logo-bar .image {
@@ -86,10 +85,11 @@
 }
 
 .yumyum {
-  grid-column: span 12;
-  padding-bottom: 1.5rem;
-  font-size: 0.7rem;
-  display: flex;
   align-items: center;
+  color: $astronomican-grey;
+  display: flex;
+  font-size: 0.7rem;
+  grid-column: span 12;
   justify-content: center;
+  padding-bottom: 1.5rem;
 }

@@ -5,7 +5,7 @@
   padding-bottom: 6rem;
 }
 
-.recipe h1{
+.recipe h1 {
   color: $astronomican-grey;
   font-size: 2rem;
   padding-bottom: 2rem;
@@ -15,28 +15,27 @@
   grid-column: 1 / span 2;
 }
 
-.ingredients table{
+.ingredients table {
   padding-bottom: 2rem;
 }
 
-
-.ingredients tr th{
-  font-size: 0.9rem;
+.ingredients tr th {
   color: $chaos-black;
-  text-align: left;
-  padding-bottom: 1rem;
-}
-
-.ingredients tr td:nth-child(2){
   font-size: 0.9rem;
-  color: $codex-grey;
+  padding-bottom: 1rem;
+  text-align: left;
 }
 
-.ingredients tr td:nth-child(1){
-  font-size: 1.8rem;
+.ingredients tr td:nth-child(2) {
+  color: $codex-grey;
+  font-size: 0.9rem;
+}
+
+.ingredients tr td:nth-child(1) {
   color: $shining-gold;
-  text-align: center;
+  font-size: 1.8rem;
   padding-right: 2.5rem;
+  text-align: center;
 }
 
 .method {

@@ -4,9 +4,9 @@
 /* Recipe page header */
 
 .recipe-header {
-  background: $ghost-white url(img/HeaderBackground.png);
-  background-repeat: no-repeat;
+  background: $ghost-white url('img/HeaderBackground.png');
   background-position: right bottom;
+  background-repeat: no-repeat;
   background-size: 40%, 100%;
   width: 100%;
 }

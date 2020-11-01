@@ -23,15 +23,15 @@ a {
 }
 
 button {
-  font-size: 0.8rem;
-  width: 12.5rem;
-  heigth: 2.6rem;
   background-color: $ghost-white;
   border: 1px solid $shining-gold;
   border-radius: 5px;
   color: $shining-gold;
+  font-size: 0.8rem;
+  height: 2.6rem;
   padding: 0.8rem;
   transition: color $transition, background-color $transition;
+  width: 12.5rem;
   word-break: initial;
 }
 
@@ -53,26 +53,26 @@ h4 {
 
 h2,
 h3 {
-  font-family: 'Poppins', helvetica, arial, sans-serif;
   color: $shining-gold;
+  font-family: 'Poppins', helvetica, arial, sans-serif;
 }
 
-table th{
+table th {
   font-family: 'Playfair Display', Georgia, serif;
 }
 
-table td{
+table td {
   font-family: 'Poppins', helvetica, arial, sans-serif;
 }
 
 /* Style of heading with first half black and
    second half grey */
 .black-grey-text {
+  display: flex;
   font-size: 2rem;
-  display:flex;
 }
 
-.black-grey-text .grey{
+.black-grey-text .grey {
   color: $codex-grey;
   padding-right: 1rem;
 }

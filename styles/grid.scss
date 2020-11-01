@@ -2,11 +2,11 @@
 /* Main display grid defined */
 
 .grid {
-  max-width: $max-width;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(12,1fr);
   column-gap: 30px;
+  display: grid;
   grid-row-gap: 30px;
+  grid-template-columns: repeat(12, 1fr);
+  margin: auto;
+  max-width: $max-width;
   overflow: hidden;
 }
