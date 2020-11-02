@@ -7,47 +7,46 @@
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 40%, 100%;
-  height: 40rem;
-  width: 100%;
-}
-
-/* Heading for first section */
-.latest-recipe-heading {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  font-size: 0.8rem;
-  grid-column-start: span 12;
-  grid-row-start: 1;
-  justify-content: start;
+  width: 100%;
+  @media screen and (max-width: $width-mobile) {
+    background-size: 120%;
+    background-position: -160% 100%;
+  }
 }
 
-.latest-recipe-heading h2 {
-  font-weight: 500;
-}
 
 /* Styles for book add */
 
 .content-section {
   background: $bleached-bone;
-  height: 33.5rem;
+  height: 80vh;
   padding-top: 7rem;
-  width: 100%;
+  width: 100vw;
+  @media screen and (max-width: $width-mobile) {
+    height: 120vh
+  }
 }
 
 .content-text {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  grid-column-end: span 6;
-  grid-column-start: 2;
-  grid-row-start: 1;
+  grid-column: 2 / span 5;
   justify-content: start;
   padding-top: 2rem;
+  @media screen and (max-width: $width-mobile) {
+    grid-row-start: 1;
+    align-items: center;
+    grid-column: 1 / span 12;
+  }
 }
 
 .content-text h2 {
   font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .content-text h1 {
@@ -61,13 +60,28 @@
   padding-top: 1rem;
 }
 
-.content-section .image {
+.content .image {
   box-shadow: -1rem 1rem 1rem -0.75rem $chaos-black;
-  grid-column-end: 11;
+  grid-column: 8 / span 5;
+  grid-row-start: 1;
   overflow: visible;
-  width: 22rem;
+  @media screen and (max-width: $width-mobile) {
+    grid-row-start: 2;
+    grid-column: 1 / span 12;
+    align-items: center;
+    transform: scale(0.7);
+  }
 }
 
 .content-section .image img {
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.padding {
+  padding-top: 10vh;
+  @media screen and (max-width: $width-mobile) {
+    padding-top: 30vh;
+  }
 }

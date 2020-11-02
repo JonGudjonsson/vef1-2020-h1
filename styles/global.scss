@@ -23,7 +23,7 @@ a {
 }
 
 button {
-  background-color: $ghost-white;
+  background-color: Transparent;
   border: 1px solid $shining-gold;
   border-radius: 5px;
   color: $shining-gold;
@@ -68,11 +68,19 @@ table td {
 /* Style of heading with first half black and
    second half grey */
 .black-grey-text {
-  display: flex;
+  display: grid;
   font-size: 2rem;
+  grid-template-columns: 1fr;
+  justify-items: stretch;
+  @media screen and (max-width: $width-mobile) {
+    font-size: 1rem;
+  }
 }
 
-.black-grey-text .grey {
+.grey {
   color: $codex-grey;
-  padding-right: 1rem;
+}
+
+.black {
+  color: $chaos-black;
 }

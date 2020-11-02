@@ -30,8 +30,10 @@ header li {
 
 .hero {
   align-content: center;
-  height: 100vh;
   justify-content: space-between;
+  @media screen and (max-width: $width-mobile) {
+    justify-content: flex-start;
+  }
 }
 
 .hero-text {
@@ -40,16 +42,32 @@ header li {
   flex-wrap: wrap;
   grid-column-start: span 5;
   justify-content: flex-start;
+  @media screen and (max-width: $width-mobile) {
+    grid-column-start: span 12;
+    align-items: center;
+  }
 }
 
 .hero-text h3 {
   font-size: 0.8rem;
   font-weight: 500;
+  @media screen and (max-width: $width-mobile) {
+    order: 1;
+  }
 }
 
 .hero-text h1 {
   font-size: 3rem;
   padding-bottom: 1rem;
+  @media screen and (max-width: $width-mobile) {
+    order: 2;
+  }
+}
+
+.hero-text button {
+  @media screen and (max-width: $width-mobile) {
+    order: 3;
+  }
 }
 
 .hero-text p {
@@ -57,10 +75,22 @@ header li {
   padding-bottom: 1.5rem;
 }
 
+.header-text {
+  @media screen and (max-width: $width-mobile) {
+    background-size: 80%, 100%;
+    visibility: hidden;
+    order: 4;
+  }
+}
+
 .reference-bar {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  @media screen and (max-width: $width-mobile) {
+    order: 2;
+    flex-direction: column;
+  }
 }
 
 .reference-text-icon {
@@ -93,4 +123,7 @@ header li {
 
 .grey-hero-text {
   color: $codex-grey;
+  @media screen and (max-width: $width-mobile) {
+    visibility: hidden;
+  }
 }

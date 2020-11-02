@@ -13,6 +13,25 @@
 
 /* Recipes hover card styles */
 
+
+/* Heading for hover card section */
+.latest-recipe-heading {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  grid-column-start: span 12;
+  justify-content: start;
+  width: 100%;
+  @media screen and (max-width: $width-mobile) {
+    align-items: center;
+  }
+}
+
+.latest-recipe-heading h2 {
+  font-weight: 500;
+}
+
 .recipes-list {
   grid-column: span 12;
   grid-row-start: 2;
@@ -23,15 +42,21 @@
   display: flex;
   flex-direction: column;
   grid-column-start: span 4;
+  height: 19.5rem;
+  @media screen and (max-width: $width-mobile) {
+    grid-column-start: span 12;
+  }
 }
 
 .card-hover .image {
+  height: 75%;
   overflow: hidden;
+  width: 100%;
 }
 
 .card-hover .image img {
-  height: 14.5rem;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -44,6 +69,7 @@
 .card-hover .card-hover-text > h2 {
   color: $codex-grey;
   font-size: 0.7rem;
+  font-weight: 500;
   grid-column-start: 1 / span 2;
   justify-self: start;
   padding: 0.2rem;
@@ -76,8 +102,11 @@
   background: linear-gradient($skull-white 66%, $ghost-white 0%);
 }
 
-.video-recipie-section {
+.video-recipie-section-home {
   padding-top: 12rem;
+  @media screen and (max-width: $width-mobile) {
+    padding-top: 0rem;
+  }
 }
 
 .latest-video-recipes-heading {
@@ -88,6 +117,9 @@
   grid-column-start: span 12;
   grid-row-start: 1;
   justify-content: start;
+  @media screen and (max-width: $width-mobile) {
+    align-items: center;
+  }
 }
 
 .latest-video-recipes-heading h2 {
@@ -102,17 +134,23 @@
 .video-card-hover {
   background-color: $skull-white;
   grid-column-start: span 4;
-  padding-top: 1.25rem;
+  height: 16.5rem;
+  @media screen and (max-width: $width-mobile) {
+    grid-column-start: span 12;
+  }
 }
 
 .video-card-hover .image {
+  height: 70%;
   overflow: hidden;
+  width: 100%;
 }
 
 .video-card-hover .image img {
-  height: 11.5rem;
-  object-fit: cover;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
+
 }
 
 .video-card-hover .video-card-hover-text {
@@ -124,6 +162,7 @@
 .video-card-hover .video-card-hover-text > h2 {
   color: $codex-grey;
   font-size: 0.7rem;
+  font-weight: 500;
   grid-column-start: 1 / span 2;
   justify-self: start;
 }
@@ -146,7 +185,6 @@
   align-items: center;
   display: flex;
   grid-column-start: span 12;
-  grid-row-start: 3;
   justify-content: center;
   padding-bottom: 5rem;
 }

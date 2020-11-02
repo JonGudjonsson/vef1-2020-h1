@@ -13,6 +13,11 @@
 
 .ingredients {
   grid-column: 1 / span 2;
+  @media screen and (max-width: $width-mobile) {
+    grid-column: 2 / span 10;
+    grid-row-start: 1;
+    margin: auto;
+  }
 }
 
 .ingredients table {
@@ -40,6 +45,12 @@
 
 .method {
   grid-column: 5 / span 8;
+  @media screen and (max-width: $width-mobile) {
+    grid-column: 2 / span 10;
+    grid-row-start: 2;
+    margin: auto;
+    text-align: justify;
+  }
 }
 
 .method p {
