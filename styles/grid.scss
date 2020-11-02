@@ -9,6 +9,7 @@
   margin: auto;
   max-width: $max-width;
   overflow: hidden;
+
   @media screen and (max-width: $width-mobile) {
     padding-left: 0.6rem;
     padding-right: 0.6rem;

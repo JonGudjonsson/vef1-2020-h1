@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: 70%;
   width: 100%;
+
   @media screen and (max-width: $width-mobile) {
     background-size: 180%;
   }
@@ -34,6 +35,7 @@
 .play-icon .image {
   box-sizing: border-box;
   padding-top: 30%;
+
   @media screen and (max-width: $width-mobile) {
     visibility: hidden;
   }

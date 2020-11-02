@@ -13,7 +13,6 @@
 
 /* Recipes hover card styles */
 
-
 /* Heading for hover card section */
 .latest-recipe-heading {
   display: flex;
@@ -23,6 +22,7 @@
   grid-column-start: span 12;
   justify-content: start;
   width: 100%;
+
   @media screen and (max-width: $width-mobile) {
     align-items: center;
   }
@@ -43,6 +43,7 @@
   flex-direction: column;
   grid-column-start: span 4;
   height: 19.5rem;
+
   @media screen and (max-width: $width-mobile) {
     grid-column-start: span 12;
   }
@@ -104,8 +105,9 @@
 
 .video-recipie-section-home {
   padding-top: 12rem;
+
   @media screen and (max-width: $width-mobile) {
-    padding-top: 0rem;
+    padding-top: 1rem;
   }
 }
 
@@ -117,11 +119,14 @@
   grid-column-start: span 12;
   grid-row-start: 1;
   justify-content: start;
+
   @media screen and (max-width: $width-mobile) {
     align-items: center;
   }
 }
 
+/* styleint throws error over position of this element
+   but it is wrong. */
 .latest-video-recipes-heading h2 {
   font-weight: 500;
 }
@@ -135,6 +140,7 @@
   background-color: $skull-white;
   grid-column-start: span 4;
   height: 16.5rem;
+
   @media screen and (max-width: $width-mobile) {
     grid-column-start: span 12;
   }
@@ -148,9 +154,8 @@
 
 .video-card-hover .image img {
   height: 100%;
-  width: 100%;
   object-fit: cover;
-
+  width: 100%;
 }
 
 .video-card-hover .video-card-hover-text {
@@ -184,7 +189,7 @@
 .video-section-button {
   align-items: center;
   display: flex;
-  grid-column-start: span 12;
+  grid-column: span 12;
   justify-content: center;
   padding-bottom: 5rem;
 }

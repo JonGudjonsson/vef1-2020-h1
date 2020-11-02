@@ -9,6 +9,7 @@
   grid-column-start: span 12;
   grid-row-start: 1;
   justify-content: start;
+
   @media screen and (max-width: $width-mobile) {
     align-items: center;
   }
@@ -26,8 +27,9 @@
 
 .all-recipe-text-checkbox h1 {
   font-size: 2rem;
+
   @media screen and (max-width: $width-mobile) {
-      padding-right: 4rem;
+    padding-right: 4rem;
   }
 }
 

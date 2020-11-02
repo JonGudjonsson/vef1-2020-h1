@@ -23,7 +23,7 @@ a {
 }
 
 button {
-  background-color: Transparent;
+  background-color: transparent;
   border: 1px solid $shining-gold;
   border-radius: 5px;
   color: $shining-gold;
@@ -72,6 +72,7 @@ table td {
   font-size: 2rem;
   grid-template-columns: 1fr;
   justify-items: stretch;
+
   @media screen and (max-width: $width-mobile) {
     font-size: 1rem;
   }

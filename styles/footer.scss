@@ -14,10 +14,11 @@
   display: flex;
   flex-direction: column;
   grid-column: 1 / span 6;
+
   @media screen and (max-width: $width-mobile) {
+    align-items: center;
     grid-column: 2 / span 10;
     grid-row-start: 1;
-    align-items: center;
   }
 }
 
@@ -29,6 +30,7 @@
 .newsletter-text h1 {
   color: $skull-white;
   font-size: 2rem;
+
   @media screen and (max-width: $width-mobile) {
     font-size: 1.5rem;
   }
@@ -38,10 +40,11 @@
   display: flex;
   flex-direction: column;
   grid-column: 7 / span 3;
+
   @media screen and (max-width: $width-mobile) {
+    align-items: center;
     grid-column: 4 / 10;
     grid-row-start: 2;
-    align-items: center;
   }
 }
 
@@ -63,6 +66,7 @@
   color: $skull-white;
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.1rem;
+
   @media screen and (max-width: $width-mobile) {
     text-align: center;
   }
@@ -71,10 +75,11 @@
 .newsletter button {
   background-color: $chaos-black;
   grid-column-end: 12;
+
   @media screen and (max-width: $width-mobile) {
+    align-items: center;
     grid-column: 4 / span 5;
     grid-row-start: 3;
-    align-items: center;
   }
 }
 

@@ -31,6 +31,7 @@ header li {
 .hero {
   align-content: center;
   justify-content: space-between;
+
   @media screen and (max-width: $width-mobile) {
     justify-content: flex-start;
   }
@@ -42,15 +43,17 @@ header li {
   flex-wrap: wrap;
   grid-column-start: span 5;
   justify-content: flex-start;
+
   @media screen and (max-width: $width-mobile) {
-    grid-column-start: span 12;
     align-items: center;
+    grid-column-start: span 12;
   }
 }
 
 .hero-text h3 {
   font-size: 0.8rem;
   font-weight: 500;
+
   @media screen and (max-width: $width-mobile) {
     order: 1;
   }
@@ -59,6 +62,7 @@ header li {
 .hero-text h1 {
   font-size: 3rem;
   padding-bottom: 1rem;
+
   @media screen and (max-width: $width-mobile) {
     order: 2;
   }
@@ -78,8 +82,8 @@ header li {
 .header-text {
   @media screen and (max-width: $width-mobile) {
     background-size: 80%, 100%;
-    visibility: hidden;
     order: 4;
+    visibility: hidden;
   }
 }
 
@@ -87,9 +91,10 @@ header li {
   display: flex;
   justify-content: space-between;
   width: 80%;
+
   @media screen and (max-width: $width-mobile) {
-    order: 2;
     flex-direction: column;
+    order: 2;
   }
 }
 
@@ -123,6 +128,7 @@ header li {
 
 .grey-hero-text {
   color: $codex-grey;
+
   @media screen and (max-width: $width-mobile) {
     visibility: hidden;
   }

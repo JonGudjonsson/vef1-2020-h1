@@ -13,6 +13,7 @@
 
 .ingredients {
   grid-column: 1 / span 2;
+
   @media screen and (max-width: $width-mobile) {
     grid-column: 2 / span 10;
     grid-row-start: 1;
@@ -45,6 +46,7 @@
 
 .method {
   grid-column: 5 / span 8;
+
   @media screen and (max-width: $width-mobile) {
     grid-column: 2 / span 10;
     grid-row-start: 2;
